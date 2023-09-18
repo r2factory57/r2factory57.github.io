@@ -2,85 +2,91 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "josefin sans",sans-serif ;
-    background: white
 }
 
-.logo{
-    position: relative;
-    width: auto;
+header{
+    background-image: url(assets/bcg\ web.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: auto;
+    margin: 30px;
+    margin-right: auto;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: red;
+}
+
+.logo img{
+    float: left;
+    width: 300px;
     height: auto;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
-nav {
-    width: 100%;
+.logo img:hover{
+    transition: 0.6s ease;
+}
+
+.navbar{
+    max-width: 1200px;
     margin: auto;
-    padding: 20px 0;
-    align-items: top-left;
+} 
+
+.contents{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.contents h1{
+    color: red;
+    font-size: 70px;
+    text-shadow: -4px 4px 4px #000
+}
+
+.button {
     justify-content: space-between;
-
-}
-
-nav ul li {
-    display: inline-flex;
-    list-style: none;
-    position: relative;
-    margin: auto;
     align-items: center;
+    margin: 50px 0px;
 }
 
-nav ul li a {
-    color: #e70000;
-    font-weight: bold;
-    background: white;
-    padding: 8px 10px;
+.btn{
+    padding: 10px 30px;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
-    color:#e70000;
-    display: inline-block;
-    margin: 10px 0px;
+    transition: 0.6s ease;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: red;
 }
 
-nav ul li a:hover{
-    color:black;
-    padding: 8px 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color:black;
-    display: inline-block;
-    margin: 10px 0;
+.btn:hover{
+    background-color: black;
+    color: red;
 }
-
-.detail {
-    margin-left: 8%;
-    margin-top: 13%;
-}
-
-.detail h1 {
-   font-size: 50px;
-   color: wheat;
-   margin-bottom: 20px;
-}
-
-.detail h1:hover
-{
-    font-size: 50px;
-    color:#e70000;
-    margin-bottom: 20px;
- }
-
- .detail p {
-    font-size: 50px;
-    color:wheat;
-    position: relative;
-    margin-bottom: 30px;
- }
- 
- .detail p:hover
- {
-     font-size: 50px;
-     color:#e70000;
-     margin-bottom: 30px;
-  }
