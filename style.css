@@ -49,10 +49,6 @@ ul li a:hover{
     cursor: pointer;
 }
 
-.logo img:hover{
-    transition: 0.6s ease;
-}
-
 .navbar{
     max-width: 1200px;
     margin: auto;
